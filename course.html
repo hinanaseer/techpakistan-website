@@ -1,0 +1,95 @@
+course-Section 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechPakistan Courses</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:30px;
+    background:#111827;
+}
+
+h1{
+    color:#38bdf8;
+}
+
+.courses{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    padding:40px;
+}
+
+.course-card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.course-card:hover{
+    transform:translateY(-5px);
+}
+
+.course-card h3{
+    color:#38bdf8;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#38bdf8;
+    color:black;
+    text-decoration:none;
+    border-radius:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>TechPakistan Courses</h1>
+</header>
+
+<section class="courses">
+
+<div class="course-card">
+    <h3>Linux Administration</h3>
+    <p>Learn Linux from beginner to advanced level.</p>
+    <a href="#" class="btn">View Course</a>
+</div>
+
+<div class="course-card">
+    <h3>DevOps Engineering</h3>
+    <p>Docker, Jenkins, GitHub Actions and Kubernetes.</p>
+    <a href="#" class="btn">View Course</a>
+</div>
+
+<div class="course-card">
+    <h3>Cloud Computing</h3>
+    <p>AWS and Azure practical training.</p>
+    <a href="#" class="btn">View Course</a>
+</div>
+
+<div class="course-card">
+    <h3>Data Engineering</h3>
+    <p>SQL, Python, ETL and PostgreSQL.</p>
+    <a href="#" class="btn">View Course</a>
+</div>
+
+</section>
+
+</body>
+</html>
